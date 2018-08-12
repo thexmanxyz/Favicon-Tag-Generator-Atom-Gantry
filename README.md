@@ -6,7 +6,9 @@ This project contains a Gantry Atom and improves the Favicon as well as the Touc
 
 ## Prerequisites
 * CMS (Joomla, Wordpress, Grav)
-* Gantry Templating Framework and Theme
+* Gantry Templating Framework and Theme (>= v5.4.24)
+
+If your Gantry version does not match the target version use the [Favicon Tag Generator Extension](https://github.com/thexmanxyz/Favicon-Tag-Generator-Gantry) instead.
 
 ## Download
 Choose the correct download for your target platform. Joomla Plugin System supported for all Gantry themes globally and locally for Helium or Hydrogen. The latest Atom version is **v1.0.0**.
