@@ -6,7 +6,7 @@ This project contains a Gantry Atom and improves the Favicon as well as the Touc
 
 ## Prerequisites
 * CMS (Joomla, Wordpress, Grav)
-* Gantry Templating Framework and Theme (>= v5.4.24)
+* Gantry Templating Framework and Theme - **at least v5.4.24**
 
 If your Gantry version does not match the target version use the [Favicon Tag Generator Extension](https://github.com/thexmanxyz/Favicon-Tag-Generator-Gantry) instead.
 
