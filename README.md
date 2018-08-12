@@ -66,8 +66,8 @@ Please be aware that the template folder path varies in dependence of the used C
   * Manifest File
   * Tile Color
   * Theme Color
-  * MS Square
-  * MS TileImage
+  * MS Square, MS Wide and MS TileImage
+  * Safari Mark Icon
  * Custom Tag Generation for new appearing Icon Sizes
 
 ## Showroom
