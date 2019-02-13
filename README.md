@@ -1,5 +1,5 @@
 # Favicon Tag Generator - Atom for Gantry
-This project contains a Gantry Atom and improves the Favicon as well as the Touch Icon Tag Generation and Configuration within the Gantry templating framework. **Favicon Tag Generator** encapsulates the parameterization of the most common icon sizes, allows the automatic attachment of tags and also has a option to add customized meta information. Furthermore, it provides an easy, user friendly and GUI assisted configuration and integration. In the current revision the following CMSs are supported:
+This project contains a Gantry Atom and improves the Favicon as well as the Touch Icon tag generation and configuration within the Gantry templating framework. **Favicon Tag Generator** encapsulates the parameterization of the most common icon sizes, allows the automatic attachment of tags and also has a option to add customized meta information. Furthermore, it provides an easy, user friendly and GUI assisted configuration and integration. In the current revision the following CMSs are supported:
 * Joomla
 * Wordpress
 * Grav
@@ -110,5 +110,5 @@ Insight of the *Favicon Tag Generator - Gantry Atom* configuration:
 ## Credits
 Thanks to the Gantry team for providing a modern templating framework.
 
-## by [thex](https://github.com/thexmanxyz)
+## by [thex](https://github.com/thexmanxyz) | [gantryprojects](https://gantryprojects.com)
 Copyright (c) 2018, free to use in personal and commercial software as per the [license](/LICENSE.md).
