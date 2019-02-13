@@ -11,7 +11,7 @@ This project contains a Gantry Atom and improves the Favicon as well as the Touc
 If your Gantry version does not match the target version use the [Favicon Tag Generator Extension](https://github.com/thexmanxyz/Favicon-Tag-Generator-Gantry) instead.
 
 ## Download
-Choose the correct download for your target platform. Joomla Plugin System supported for all Gantry themes globally and locally for Helium or Hydrogen. The latest Atom version is **v1.0.0**.
+Choose the correct download for your target platform. The Joomla Plugin System is supported for all Gantry themes globally or locally for the templates Helium and Hydrogen. The latest Atom version is **v1.0.0**.
 ___
 **Default Atom:**
 [English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.DE.v1.0.0.zip)
@@ -38,9 +38,7 @@ ___
 ## Manual Installation
 1. Download the **Default Package** of the *Favicon Tag Generator Atom*.
 2. Extract the files.
-3. Copy the `.html.twig` and the `.yaml` file to your particle folder `/[GANTRY_THEME]/custom/particles`. Please check the list below to determine where the template folder for your CMS is located.
-   
-Please check the list below to determine where the template folder for your CMS is located.
+3. Copy the `.html.twig` and the `.yaml` file to your particle folder `/[GANTRY_THEME]/custom/particles`. Please check the [listing](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry#cms-template-folder) below to determine where the template folder for your CMS is located.
 
 ## CMS Template Folder
 Please be aware that the template folder path varies in dependence of the used CMS. Here is a list of the folders for the different platforms:
@@ -59,7 +57,7 @@ Please be aware that the template folder path varies in dependence of the used C
 2. Switch to **Page Settings** and add the new appearing Atom called **Favicon Tag Generator** either globally to your site (**base outline**), to a specific template or page by dragging it to the designated section.
 3. Configure the appearance according to your favor.
 
-## Atom Options and Features
+## Supported Parameters and Atom Options
 * Advanced Favicon / Touch Icon generation Atom
 * Different Tag Generation Modes
   * Automatic, Semi-Automatic, Manual, Custom Only
@@ -98,6 +96,10 @@ Insight of the *Favicon Tag Generator - Gantry Atom* configuration:
 **Backend (6)** - *[Custom](/screenshots/backend_custom.png)*
 
 ![6](/screenshots/backend_custom.png)
+
+## Future Tasks
+- [ ] maintain future `<meta>` tags
+- [ ] add more languages
 
 ## Known Issues
 * None
