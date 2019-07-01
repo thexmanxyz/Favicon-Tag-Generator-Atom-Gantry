@@ -11,22 +11,22 @@ This project contains a Gantry Atom and improves the Favicon as well as the Touc
 If your Gantry version does not match the target version use the [Favicon Tag Generator Extension](https://github.com/thexmanxyz/Favicon-Tag-Generator-Gantry) instead.
 
 ## Download
-Choose the correct download for your target platform. The Joomla Plugin System is supported for all Gantry themes globally or locally for the templates Helium and Hydrogen. The latest Atom version is **v1.0.0**.
+Choose the correct download for your target platform. The Joomla Plugin System is supported for all Gantry themes globally or locally for the templates Helium and Hydrogen. The latest Atom version is **v1.0.1**.
 ___
 **Default Atom:**
-[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.DE.v1.0.0.zip)
+[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.atom.only.EN.v1.0.1.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.atom.only.DE.v1.0.1.zip)
 
 **Legacy Atom - Gantry <5.3.2:**
-[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.legacy.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.atom.only.legacy.DE.v1.0.0.zip)
+[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.atom.only.legacy.EN.v1.0.1.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.atom.only.legacy.DE.v1.0.1.zip)
 
 **Joomla Plugin - All Templates (Global):**
-[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.global.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.global.DE.v1.0.0.zip)
+[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.global.EN.v1.0.1.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.global.DE.v1.0.1.zip)
 
 **Joomla Plugin - Hydrogen:**
-[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.hydrogen.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.hydrogen.DE.v1.0.0.zip)
+[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.hydrogen.EN.v1.0.1.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.hydrogen.DE.v1.0.1.zip)
 
 **Joomla Plugin - Helium:**
-[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.helium.EN.v1.0.0.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.0/fta.j3.helium.DE.v1.0.0.zip)
+[English](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.helium.EN.v1.0.1.zip) / [German](https://github.com/thexmanxyz/Favicon-Tag-Generator-Atom-Gantry/releases/download/v1.0.1/fta.j3.helium.DE.v1.0.1.zip)
 ___
 
 ## Automatic Installation (Joomla only)
@@ -93,9 +93,13 @@ Insight of the *Favicon Tag Generator - Gantry Atom* configuration:
 
 ![5](/screenshots/backend_icon4.png)
 
-**Backend (6)** - *[Custom](/screenshots/backend_custom.png)*
+**Backend (6)** - *[Custom (1)](/screenshots/backend_custom_1.png)*
 
-![6](/screenshots/backend_custom.png)
+![6](/screenshots/backend_custom_1.png)
+
+**Backend (7)** - *[Custom (2)](/screenshots/backend_custom_2.png)*
+
+![7](/screenshots/backend_custom_2.png)
 
 ## Future Tasks
 - [ ] maintain future `<meta>` tags
