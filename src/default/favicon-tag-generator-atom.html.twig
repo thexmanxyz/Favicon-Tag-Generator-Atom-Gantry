@@ -44,7 +44,6 @@
 		{{ _self.renderMetaTagMode(general, particle.icon150square, "150", "msapplication-square150x150logo", 0) }}
 		{{ _self.renderMetaTagMode(general, particle.icon310square, "310", "msapplication-square310x310logo", 0) }}
 		{{ _self.renderMetaTagMode(general, particle.icon310x150wide, "310x150", "msapplication-wide310x150logo", 0) }}
-		
 		{{ _self.renderMetaTagMode(general, particle.tilecolor, particle.tilecolor.color, "msapplication-TileColor", 1) }}
 		{{ _self.renderMetaTagMode(general, particle.themecolor, particle.themecolor.color, "theme-color", 1) }}
 		{%- endif -%}
@@ -89,9 +88,9 @@
         {%- if general.mode == 'manual' or (general.mode == 'semi-auto' and icon.image is not empty) -%}
             {%- set link = icon.image -%}
         {%- endif -%}
-        {{- SELF.renderMetaTag(icon.enabled, name, link) -}}
+        {{- SELF.renderMetaTag(icon.enabled, name, link, true) -}}
     {%- else -%}
-        {{- SELF.renderMetaTag(icon.enabled, name, content) -}}
+        {{- SELF.renderMetaTag(icon.enabled, name, content, false) -}}
     {%- endif -%}
 {%- endmacro -%}
 
@@ -108,18 +107,18 @@
             {%- set linkTag = linkTag ~ ' href="' ~ url(href) ~ '"' -%}
         {%- endif -%}
 		{%- if color is not empty -%}
-			 {%- set linkTag = linkTag ~ ' color="' ~ color ~ '"' -%}
+			 {%- set linkTag = linkTag ~ ' color="' ~ color|e ~ '"' -%}
 		{%- endif -%}
         {%- set linkTag = linkTag ~ '>' -%}
         {{- linkTag|raw -}}
     {% endif %}
 {%- endmacro -%}
 
-{%- macro renderMetaTag(enabled, name, content) -%}
+{%- macro renderMetaTag(enabled, name, content, isUrl) -%}
     {%- if enabled -%}
         {%- set linkTag = '<meta name="' ~ name|e ~ '"' -%}
         {%- if content is not empty -%}
-            {%- set linkTag = linkTag ~ ' content="' ~ content|e ~ '"' -%}
+            {%- set linkTag = linkTag ~ ' content="' ~ (isUrl ? url(content) : content|e) ~ '"' -%}
         {%- endif -%}
         {%- set linkTag = linkTag ~ '>' -%}
         {{- linkTag|raw -}}
