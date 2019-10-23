@@ -20,7 +20,7 @@ set scr_log_files=0
 
 REM --- project variables ---
 set prj_id=fta
-set prj_rev=v1.0.2
+set prj_rev=v1.0.3
 set prj_name=favicon-tag-generator-atom
 set prj_fullname=Favicon Tag Generator - Atom
 set prj_title_hr=--------------------------------
